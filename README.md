@@ -1,0 +1,10 @@
+# simulated-annealing
+In our Project, we will be using a Covering array of sizes[5,6,7] with strength(t) of 2 and possible values(v) as 2. This type of array is designed to cover all possible combinations of two input parameters, with each parameter having two possible values. The "k" value represents the number of columns in the table, which corresponds to the number of input parameters being tested. The higher the value of k, the more complex the system is being tested.
+
+For a t=2 v=2 k=5 array, there are 32 possible rows in the table, with each row representing a unique combination of two input parameters. This type of array is useful for testing systems with a moderate level of complexity, such as simple web applications or mobile apps.
+
+A t=2 v=2 k=6 array, on the other hand, covers all possible combinations of two input parameters with six columns in the table. This means that there are 64 possible rows in the table, making it more complex than a t=2 v=2 k=5 array.
+
+Finally, a t=2 v=2 k=7 array covers all possible combinations of two input parameters with seven columns in the table. This means that there are 128 possible rows in the table, making it the most complex of the three arrays. This type of array is useful for testing highly complex systems, such as large-scale software applications or systems that require high levels of security or reliability.
+
+This study presents the implementation of the algorithm, provides experimental results, and analyzes the impact of the cooling schedule and neighborhood size on the quality of the solution and the execution time. The results indicate that simulated annealing (SA) is an effective method for generating covering arrays with a minimal number of rows and that the selection of cooling schedule and neighborhood size has a significant influence on the quality of the solution and its performance. In conclusion, this study highlights the importance of carefully choosing the cooling schedule and neighborhood size in order to optimize the performance and quality of the SA algorithm for generating covering arrays.
